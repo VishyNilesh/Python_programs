@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+   user_in = eval(input('Enter a list of values'))
+result=''
+for i in user_in:
+    result=result+str(i)
+print(result)
