@@ -1,9 +1,9 @@
 #2. Write a Python program to multiply all the items in a list. 
 count = int(input("How many list of number you want to multiply "))
 l=[]
-sum = 1
+prod = 1
 for i in range(count):
     x = int(input('Enter the number'))
     l.append(x)
-    sum *= l[i]
-print('the product of numbers provide is {}'.format(sum))
+    prod *= l[i]
+print('the product of numbers provide is {}'.format(prod))
