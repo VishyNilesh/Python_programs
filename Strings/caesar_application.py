@@ -16,4 +16,5 @@ else:
     n = int(input('no of characters to shift by '))
     for x in actual_data:
         encrypted_data += x.replace(x,chr(ord(x)+n))
+print(encrypted_data)
 
