@@ -3,4 +3,7 @@ Sample function and result :
 insert_end('Python') -> onononon
 insert_end('Exercises') -> eseseses '''
 s = input("Enter the string ")
-print(s[-2:]*4)
+if len(s)>=2:
+    print(s[-2:]*4)
+else:
+    pass
