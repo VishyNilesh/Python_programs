@@ -4,8 +4,8 @@ l = [eval(input('Enter the item you want to add to the list : ')) for x in range
 rem = int(input('Enter the number of elements you want to remove from the lists : '))
 indices = [eval(input('Enter the index of the item you want to remove from the list : ')) for x in range(rem)]
 for x in indices:
-    l[x] = 0
-for x in l:
-   if x == 0:
-      l.remove(0)
+    l[x] = ''
+c_empty = l.count('')
+for i in range(c_empty):
+   l.remove('')
 print(l)

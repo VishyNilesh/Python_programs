@@ -1,0 +1,10 @@
+#Q1.1. Write a Python program to create a set
+s = set()
+print(s)
+print(type(s))
+s.update([10,20,30])
+print(s)
+print(type(s))
+s.add('Nilesh')
+print(s)
+print(type(s))
